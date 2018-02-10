@@ -1,0 +1,71 @@
+/* /////////////////////////////////////////////////////// */
+/* ////////////////  BUTTONS                  //////////// */
+/* /////////////////////////////////////////////////////// */
+
+// 1. Button sizes
+// 2. Button colors
+// 3. Button icons
+
+
+
+
+
+/* /////////////////////////////////////////////////////// */
+/* //////////////// 1. Button sizes           //////////// */
+/* /////////////////////////////////////////////////////// */
+
+.button
+	border-radius: 200px
+	font-family: $header-font
+	font-weight: bold
+	transition: all .25s $fx-bounce1
+
+.button.large
+	padding: $space-inset-squish-medium
+
+.button.small
+	padding: $space-inset-squish-small
+
+.button.tiny
+	padding: $space-inset-squish-tiny
+
+
+
+
+/* /////////////////////////////////////////////////////// */
+/* //////////////// 2. Button colors          //////////// */
+/* /////////////////////////////////////////////////////// */
+
+
+
+
+
+/* /////////////////////////////////////////////////////// */
+/* //////////////// 3. Button icons           //////////// */
+/* /////////////////////////////////////////////////////// */
+
+.button.button-icon-right,
+.button.button-icon-left
+	background-size: auto $base-font-size
+
+.button.button-icon-right
+	padding-right: $space-inline-xlarge
+	background-position: right $space-inline-small center
+
+.button.button-icon-left
+	padding-left: $space-inline-xlarge
+	background-position: $space-inline-small center
+
+.button.small.button-icon-left
+	padding-left: $space-inline-large
+	background-position: $space-inline-tiny center
+
+
+/* Sizes */
+.button.large.button-icon-right
+	padding-right: $space-inline-xlarge
+
+.button.tiny.button-icon-right
+	padding-right: $space-inline-large
+	background-size: $base-font-size/1.25 auto
+	background-position: right $space-inline-tiny center
