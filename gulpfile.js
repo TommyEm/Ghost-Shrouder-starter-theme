@@ -15,6 +15,8 @@ var sassPaths = [
 
   'node_modules/bootstrap/scss'
 ];
+var modularscale = ['node_modules/mathsass/dist', 'node_modules/modularscale-sass/stylesheets'];
+
 
 gulp.task('serve', ['watch'], function () {
     browserSync.init({
@@ -39,7 +41,7 @@ gulp.task('styles', function () {
 gulp.task('sass', function () {
     return gulp.src('./assets/sass/**/style.sass')
         .pipe(sass({
-			    includePaths: sassPaths,
+			    includePaths: sassPaths.concat(modularscale),
 			    outputStyle: 'compressed' // if css compressed **file size**
 			  })
 				.on('error', sass.logError))
