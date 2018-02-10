@@ -11,8 +11,9 @@ var sassPaths = [
   'foundation/bower_components/normalize.scss/sass',
   'foundation/bower_components/foundation-sites/scss',
   'foundation/bower_components/motion-ui/src',
-  'foundation/bower_components/modular-scale/stylesheets',
-	'foundation/scss/'
+	'foundation/scss/',
+
+  'node_modules/bootstrap/scss'
 ];
 
 gulp.task('serve', ['watch'], function () {
