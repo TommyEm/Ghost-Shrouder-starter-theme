@@ -8,12 +8,12 @@ var $           = require('gulp-load-plugins')();
 var port = process.env.PORT || 8080;
 
 var sassPaths = [
-  'foundation/bower_components/normalize.scss/sass',
-  'foundation/bower_components/foundation-sites/scss',
-  'foundation/bower_components/motion-ui/src',
+	'foundation/node_modules/foundation-sites/scss',
+	'foundation/node_modules/foundation-sites/scss/vendor',
+	'foundation/node_modules/motion-ui/src',
 	'foundation/scss/',
 
-  'node_modules/bootstrap/scss'
+	'node_modules/bootstrap/scss'
 ];
 var modularscale = ['node_modules/mathsass/dist', 'node_modules/modularscale-sass/stylesheets'];
 
@@ -21,7 +21,7 @@ var modularscale = ['node_modules/mathsass/dist', 'node_modules/modularscale-sas
 gulp.task('serve', ['watch'], function () {
     browserSync.init({
         proxy: 'http://localhost:' + port,
-        open: false,
+        open: true,
         notify: false,
         plugins: [require('bs-console-qrcode')]
     });
