@@ -11,14 +11,14 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.23.6",
-    "bs-console-qrcode": "^1.0.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-load-plugins": "^1.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-zip": "^4.1.0",
+    "browser-sync": "^2.26.7",
+    "bs-console-qrcode": "^1.0.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-load-plugins": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-zip": "^5.0.0",
     "mathsass": "^0.10.1",
-    "modularscale-sass": "^3.0.5"
+    "modularscale-sass": "^3.0.8"
   }
 }
