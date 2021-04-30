@@ -11,13 +11,13 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.14",
     "bs-console-qrcode": "^1.0.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-load-plugins": "^2.0.6",
     "gulp-sass": "^4.0.2",
-    "gulp-zip": "^5.0.0",
+    "gulp-zip": "^5.1.0",
     "mathsass": "^0.11.0",
     "modularscale-sass": "^3.0.8"
   }
